@@ -45,4 +45,4 @@ if __name__ == "__main__":
       
 
 
-    bot.run("ODQ3NDMzMzE0NDEwMTY4MzIw.YK9_xg.oTrzyx0AVYaiUnZcpDex9-kNENY")
+    bot.run("Token")
