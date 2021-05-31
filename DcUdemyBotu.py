@@ -39,7 +39,7 @@ if __name__ == "__main__":
             return_content = udemy()
             if return_content != kurs:
                 kurs = return_content
-                print(kurs)
+               
                 await msg.send(kurs)
     
       
