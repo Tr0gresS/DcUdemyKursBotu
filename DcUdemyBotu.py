@@ -34,13 +34,13 @@ if __name__ == "__main__":
     
     @bot.command()
     async def start(msg):
-        temp = None    
+        kurs = None    
         while True:
-            last = udemy()
-            if last != temp:
-                temp = last
-                print(temp)
-                await msg.send(temp)
+            return_content = udemy()
+            if return_content != kurs:
+                kurs = return_content
+                print(kurs)
+                await msg.send(kurs)
     
       
 
